@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+.profile {
+  height: 300px;
+  object-fit: cover;
+}
+#welcome {
+  position: absolute;
+  bottom: 0;
+  /* The image used */
+  background-image: url("Background.jpg");
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: table;
+  width: 100%;
+  height: 800px;
+  text-align: center;
+}
+h1 {
+  font-size: 40px;
+  font-family: "Amatic SC", cursive;
+  font-weight: 300;
+  color: rgb(42, 167, 80);
+  text-shadow: 2px 2px rgb(24, 196, 248);
+}
+#name {
+  font-size: 40px;
+  color: aliceblue;
+  font-weight: 700;
+  font-family: "Amatic SC", cursive;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 300;
+  color: aliceblue;
+  text-shadow: 2px 2px blue;
+}
+#bio {
+  font-family: "Amatic SC", cursive;
+  padding: 50px;
+  margin-top: 600px;
+}
+.line {
+  height: 6px;
+  background-color: coral;
+  width: 100px;
+  margin: 8px auto;
+}
+.parallax-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.menu {
+  list-style: none;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.links {
+  float: left;
+  padding-top: 5px;
+  padding-right: 9px;
+  padding-left: 9px;
+  font-family: fantasy;
+  font-size: 20px;
+}
+
+#apps,
+#chatbot {
+  text-align: center;
+  height: 500px;
+}
+
+#videos {
+  margin-top: 800px;
+  background-image: url("Background(2).jpg");
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  text-align: center;
+}
+
+#games {
+  margin-top: 800px;
+  background-image: url("Background(3).jpg");
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  text-align: center;
+}
+
+#contact {
+  font-family: "Amatic SC", cursive;
+  padding: 50px;
+  margin-top: 600px;
+  background-color: rgb(115, 192, 192);
+}
+
+#game1,
+#game2 {
+  width: 350px;
+  transition: transform 0.2s;
+  margin-top: 35px;
+}
+
+#game1:hover,
+#game2:hover {
+  transform: scale(0.9);
+}
+
+#myCarousel {
+  background-color: aliceblue;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.carousel-inner p {
+  margin-top: 15px;
+  font-size: 30px;
+}
