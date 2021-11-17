@@ -56,9 +56,8 @@ h2 {
   vertical-align: middle;
 }
 
-.menu {
-  list-style: none;
-  position: fixed;
+.my_nav_bar {
+  position: sticky;
   top: 0;
   z-index: 999;
   cursor: pointer;
